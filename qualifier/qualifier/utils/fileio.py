@@ -34,7 +34,9 @@ def save_csv(save_csv_path,qualifying_loans,header):
     """Saves the qualifying loans to a CSV file.
 
     Args:
-        qualifying_loans (list of lists): The qualifying bank loans.
+        save_csv_path: path to save csv file, 
+        qualifying_loans: The qualifying bank loans to be written to csv
+        header: header for the csv file
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
 
